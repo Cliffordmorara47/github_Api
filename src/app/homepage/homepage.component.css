@@ -1,0 +1,46 @@
+.container-fluid{
+    background-color: black;
+    color: white;
+}
+.profile{
+    width: 80%;
+    border-radius: 1000px;
+    padding: 30px;
+}
+.h1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p1{
+    padding-top: 10px;
+}
+.btn{
+    width: 60%;
+}
+.form-group{
+    padding-top: 30px;
+}
+.col-md-4{
+    padding-top: 30px;
+}
+.card{
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(63, 62, 60);
+    height: 200px;
+}
+.card p{
+    color: blue;
+}
+.card p:hover{
+    text-decoration: underline;
+}
+.card small{
+    padding-bottom: 30px;
+}
+.cards{
+    padding-top: 50px;
+}
+.card:hover{
+    cursor: pointer;
+}
