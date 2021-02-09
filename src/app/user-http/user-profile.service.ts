@@ -10,8 +10,9 @@ import {NavbarComponent} from '../navbar/navbar.component';
 })
 export class UserProfileService {
   user: any;
-  apiUrl = environment.apiUrl;
-  token = environment.token;
+  apiUrl= 'https://api.github.com/users/';
+  token= '?access_token=4dde54ebc609e419e023feb6eed74193152ea8d4';
+  userName: any;
 
 
 
@@ -30,7 +31,7 @@ export class UserProfileService {
       following: string
     }
     let promise = new Promise((resolve, reject)=>{
-      this.http.get<ApiResponse>(this.apiUrl + this.token).subscribe(data => {
+      this.http.get<ApiResponse>(this.apiUrl +this.userName + this.token).subscribe(data => {
           this.user = new User(data.avatar_url, data.login, data.name, data.bio, data.public_repos,data.followers, data.following)
           
           
