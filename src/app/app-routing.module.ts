@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'homepage', component: HomepageComponent },
   { path: 'about', component: AboutComponent },
   {path: 'github', component: GithubComponent},
-  { path: '**', component: NotFoundComponent },
+  // { path: '**', component: NotFoundComponent },
   // {path: 'github', component: GithubComponent},
   {path: '', redirectTo:"homepage", pathMatch: "full"},
 ];
