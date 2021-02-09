@@ -3,11 +3,11 @@ import { environment } from '../../environments/environment';
 
 export class User {
     constructor(
-        public avatar_url: Content,
+        public avatar_url: string,
         public login: string,
         public name: string,
         public bio: string,
-        public public_repos: number,
-        public followers: number,
-        public following: number) { }
+        public public_repos: string,
+        public followers: string,
+        public following: string) { }
 }
