@@ -1,27 +1,45 @@
-# Github
+# _Github_Api_
+***
+![Github_Api](https://github.com/Cliffordmorara47/github_Api/blob/master/src/assets/project.png?raw=true "Homepage")
+---
+## _About_
+- Github_Api retrieves information on a github's user account and displays his/her repositories.
+- 
+---
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+## _Author_
+_Github_Api was founded and set up by Clifford Morara. A student from Moringa School._
+***
 
-## Development server
+## _Visit website_
+[Github_Api](https://cliffordmorara47.github.io/github_Api/homepage)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## _Technologies_
+_The following languages were used to come up with the website;_
+_The following technologies were used to come up with the website._
 
-## Code scaffolding
+ 1. [Angular](https://angular.io/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ 1. [HTML5](https://en.wikipedia.org/wiki/HTML5 "Hypertext")
 
-## Build
+ 1. [CSS](https://en.wikipedia.org/wiki/CSS "stylesheet")
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+ 1. [Bootstrap](https://getbootstrap.com/ "bootstrap")
+ ***
+# _BDD_
+1. Enter your github's username
+and click search. It shows your profile and your public repositories.
+***
+# _Installation Process_
+open your terminal and cd into your specified folder.
+run the following command "gh repo clone Cliffordmorara47/github_Api"
+ ## _Contacts_
+ _To contact me in regards to the above site, you can Call me on;_
+ - [+254715463455]()
+ - [+254710566344]()
 
-## Running unit tests
+ _Or you can send an E-mail to;_
+ - [cliffordmorara52@gmail.com]()
+ - [github_search@hotmail.com]()
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ ***
