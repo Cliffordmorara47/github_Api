@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <form class="d-flex" #userForm="ngForm" (ngSubmit)="getUser">
+      <form class="d-flex" #userForm="ngForm" (ngSubmit)="getUser()">
         <input [(ngModel)]="userName" name="userName" #username="ngModel" class="form-control me-3" type="search" placeholder="Enter a github's user name" aria-label="Search" required>
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>

@@ -16,39 +16,13 @@ import { environment } from '../../environments/environment';
 })
 export class GithubComponent implements OnInit {
   user: any;
-  // repos: any;
 
-  constructor(private http: HttpClient /*private newUser:UserProfileService*/) { }
+  constructor(private http: HttpClient /*private newUser:UserProfileService*/, private userService: UserProfileService) { }
 
 
 
   ngOnInit() {
-    interface ApiResponse {
-      avatar_url: Content;
-      login: string;
-      name: string;
-      bio: string;
-      public_repos: number;
-      followers: number;
-      following: number;
-    }
-
-    this.http.get<ApiResponse>(environment.apiUrl).subscribe(data => {
-      this.user = new User(data.avatar_url, data.login, data.name, data.bio, data.public_repos, data.followers, data.following)
-    })
-
-    interface ApiResponse {
-      name: string,
-      full_name: string,
-      description: string,
-      created_at: string,
-      updated_at: string,
-      pushed_at: string
-    }
-    
-    // this.http.get<ApiResponse>(environment.repoUrl).subscribe(data =>{
-    //   this.repos = new Repo(data.name, data.full_name, data.description, data.created_at, data.updated_at, data.pushed_at)
-    // })
+   this.user = new User("", "", "", "", "", "", "")
 
     AOS.init();
   }
