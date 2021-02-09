@@ -1,15 +1,18 @@
 .row{
     background-color: black;
-    color: white;
-    padding-bottom: 100px;
+    color: whitesmoke;
+    padding-bottom: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
 .col-md-3{
     padding-left: 30px;
 }
 .profile{
-    width: 80%;
+    width: 90%;
     border-radius: 300px;
+}
+.img{
+    padding-bottom: 30px;
 }
 .h1{
     color: blanchedalmond;
@@ -19,4 +22,9 @@
 }
 .btn:hover{
     background-color: transparent;
+}
+.card-one{
+    border: 1px solid rgb(34, 33, 33);
+    padding-bottom: 100px;
+    border-radius: 50px;
 }
